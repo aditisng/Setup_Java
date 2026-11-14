@@ -1,2 +1,17 @@
 Start Java learning java is high level object oriented programming language.
-gu
+
+# Setup Notes
+-> Download JDK (Temurin 25 lts(Long term Support))
+-> Install Ide intellij
+-> Plugins :- Atom Material Icon , Rainbow Bracket , Lombok Linting Tool
+-> Link GitHub :- Search > Setting > Version Control > GitHub Search > Add Account > Link Done
+
+
+# Pushing Code to GitHub
+-> GItHUb OPen > Create Repo > Follow step
+--> Terminal > git init (This will Initialise git in our project)
+               git add . (. is use to add all the change we have done in our code.)
+               git add "File name" (This will only push that particular file changes only)
+
+               git status (It will show the status of all the file changes which should be tracked or untracked . Green for tracked and red for untracked)
+               git commit -m "Message about the changes" (commit - This will push the code and -m is for message)
